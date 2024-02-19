@@ -1,0 +1,57 @@
+
+
+.App {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input input {
+  width: 200px;
+  padding: 5px;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo .left {
+  display: flex;
+  align-items: center;
+}
+
+.todo .left input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo .right {
+  display: flex;
+  gap: 10px;
+}
+
+.error{
+  color: red;
+  font-size: 15px;
+}
